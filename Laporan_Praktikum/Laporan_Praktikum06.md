@@ -309,10 +309,7 @@ balik stack
 
 #### Output 1
 
-![Screenshot Output Unguided 1](https://github.com/Farrel-13/Laporan_Praktikum06/blob/main/Output/output01.png?raw=true)
-
-![Screenshot Output Unguided 1](https://github.com/Farrel-13/Laporan_Praktikum06/blob/main/Output/output02.png?raw=true)
-
+![Screenshot Output Unguided 1](https://github.com/Farrel-13/Laporan_Praktikum07/blob/main/output/outputno1.png?raw=true)
 
 Program ini mengimplementasikan struktur data Stack menggunakan representasi tabel (array) dengan kapasitas maksimum 20 elemen dan tipe data integer. Pada file stack.h, didefinisikan struktur Stack yang memiliki array info untuk menyimpan data dan variabel Top sebagai penanda posisi elemen paling atas. File stack.cpp berisi implementasi fungsi createStack() untuk membuat Stack kosong, isEmpty() untuk memeriksa kondisi Stack, push() untuk menambahkan elemen, pop() untuk mengambil elemen paling atas, printInfo() untuk menampilkan seluruh isi Stack, dan balikStack() untuk membalik urutan elemen. Sementara itu, file main.cpp digunakan untuk menguji operasi Stack dengan memasukkan beberapa angka, melakukan pengambilan elemen menggunakan pop(), menampilkan isi Stack, dan membalik urutannya. Melalui program ini, penerapan prinsip LIFO (Last In First Out) dapat diamati, yaitu elemen yang terakhir dimasukkan akan menjadi elemen pertama yang diambil.
 
@@ -391,9 +388,7 @@ balik stack
 
 #### Output 2
 
-![Screenshot Output Unguided 2](https://github.com/Farrel-13/Laporan_Praktikum06/blob/main/Output/output202.png?raw=true)
-
-![Screenshot Output Unguided 2](https://github.com/Farrel-13/Laporan_Praktikum06/blob/main/Output/output201.png?raw=true)
+![Screenshot Output Unguided 1](https://github.com/Farrel-13/Laporan_Praktikum07/blob/main/output/outputno2.png?raw=true)
 
 Program ini merupakan pengembangan dari ADT Stack pada nomor 1 dengan menambahkan prosedur pushAscending() untuk memasukkan elemen secara terurut berdasarkan nilai terkecil hingga terbesar. Pada file stack.h, ditambahkan deklarasi fungsi pushAscending(), sedangkan implementasinya terdapat pada file stack.cpp. Prosedur tersebut bekerja dengan membandingkan nilai yang akan dimasukkan dengan elemen yang sudah tersimpan di dalam array. Jika terdapat elemen yang lebih besar, posisi elemen tersebut digeser untuk memberikan tempat bagi data baru. Pada file main.cpp, dilakukan pengujian dengan memasukkan angka 3, 4, 8, 2, 3, dan 9. Hasilnya, data tersimpan secara berurutan dari nilai terkecil hingga terbesar pada array, sehingga ketika ditampilkan dari posisi TOP menghasilkan urutan 9 8 4 3 3 2. Selanjutnya, prosedur balikStack() digunakan untuk membalik urutan elemen sehingga tampilannya menjadi 2 3 3 4 8 9.
 
@@ -463,10 +458,7 @@ balik stack
 
 #### Output 3
 
-![Screenshot Output Unguided 2](https://github.com/Farrel-13/Laporan_Praktikum06/blob/main/Output/output202.png?raw=true)
-
-![Screenshot Output Unguided 2](https://github.com/Farrel-13/Laporan_Praktikum06/blob/main/Output/output201.png?raw=true)
-
+![Screenshot Output Unguided 1](https://github.com/Farrel-13/Laporan_Praktikum07/blob/main/output/outputno3.png?raw=true)
 
 Program ini mengembangkan ADT Stack dengan menambahkan prosedur getInputStream() untuk menerima input dari pengguna secara berulang hingga tombol Enter ditekan. Pada file stack.h, ditambahkan deklarasi fungsi getInputStream(), sedangkan implementasinya terdapat pada file stack.cpp. Prosedur tersebut menggunakan cin.get() untuk membaca setiap karakter yang dimasukkan pengguna. Karakter yang berupa angka kemudian dikonversi menjadi tipe integer dan dimasukkan ke dalam Stack menggunakan fungsi push(). Pada file main.cpp, prosedur getInputStream() dipanggil setelah Stack dibuat menggunakan createStack(). Selanjutnya, fungsi printInfo() digunakan untuk menampilkan seluruh data yang telah dimasukkan, kemudian balikStack() digunakan untuk membalik urutan elemen. Melalui program ini, pengguna dapat memasukkan beberapa angka sekaligus dan melihat penerapan prinsip LIFO pada proses penyimpanan serta penampilan data dalam Stack.
 
